@@ -1,10 +1,10 @@
 {
   "Question 1": [
     {
-      id: 1,
-      question: "First question",
-      correct_answer: "correct answer",
-      incorrect_answer: [
+      "id": 1,
+      "question": "First question",
+      "correct_answer": "correct answer",
+      "incorrect_answer": [
         "wrong answer",
         "wrong answer",
         "wrong answer"
