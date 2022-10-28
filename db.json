@@ -1,8 +1,14 @@
 {
-  "posts": [
+  "Question 1": [
     {
-      "id": 1,
-      "title": "Post 1"
+      id: 1,
+      question: "First question",
+      correct_answer: "correct answer",
+      incorrect_answer: [
+        "wrong answer",
+        "wrong answer",
+        "wrong answer"
+      ]
     },
     {
       "id": 2,
