@@ -4,11 +4,10 @@
       "id": 1,
       "question": "First question",
       "correct_answer": "correct answer",
-      "incorrect_answer": {
+      "incorrect_answer": 
         "wrong answer",
         "wrong answer",
         "wrong answer"
-      }
     },
     {
       "id": 2,
