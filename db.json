@@ -1,4 +1,4 @@
-[
+
   {
     "questionType": "true_false",
     "questionText": "The earth is round",
@@ -42,4 +42,4 @@
     "correctAnswer": "<br>",
     "answerFieldId": "answer_to_question"
   }
-]
+
