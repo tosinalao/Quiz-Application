@@ -1,12 +1,15 @@
 {
-    "questionType" : "true_false",
-    "questionText" : "The earth is round",
-    "correctAnswer" : "true",
-    "options" : ["true", "false"],
-  },
-  {
-    "questionType" : "text_input",
-    "questionText" : "What is the value of the expression 1+1",
-    "correctAnswer" : "2",
-    "answerFieldId" : "answer_to_question"
+  "quiz 1": [
+    {"question": 'What is 2 + 2?', "answers": [{ "text": 4, "correct": true },{ "text": 22, "correct": false }]}
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "quiz 2": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
   }
+}
