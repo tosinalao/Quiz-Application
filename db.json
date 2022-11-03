@@ -1,43 +1,45 @@
-{
-   "questionType":"true_false",
-   "questionText":"The earth is round",
-   "correctAnswer":"true",
-   "options":[
+[
+  {
+    "questionType": "true_false",
+    "questionText": "The earth is round",
+    "correctAnswer": "true",
+    "options": [
       "true",
       "false"
-   ]
-},
-{
-   "questionType":"multiple_choice",
-   "questionText":"What is the value of the expression 4*8",
-   "correctAnswer":"32",
-   "options":[
+    ]
+  },
+  {
+    "questionType": "multiple_choice",
+    "questionText": "What is the value of the expression 4*8",
+    "correctAnswer": "32",
+    "options": [
       "32",
       "45",
       "16",
       "28"
-   ]
-},
-{
-   "questionType":"image_choice",
-   "questionText":"Which of these is the proper way to write a script tag?",
-   "correctAnswer":"3",
-   "options":[
+    ]
+  },
+  {
+    "questionType": "image_choice",
+    "questionText": "Which of these is the proper way to write a script tag?",
+    "correctAnswer": "3",
+    "options": [
       "1",
       "2",
       "3",
       "4"
-   ]
-},
-{
-   "questionType":"text_input",
-   "questionText":"What is the value of the expression 2+2",
-   "correctAnswer":"4",
-   "answerFieldId":"answer_to_question"
-},
-{
-   "questionType":"blank_input",
-   "questionText":"The ___ tag inserts a single line break",
-   "correctAnswer":"<br>",
-   "answerFieldId":"answer_to_question"
-}
+    ]
+  },
+  {
+    "questionType": "text_input",
+    "questionText": "What is the value of the expression 2+2",
+    "correctAnswer": "4",
+    "answerFieldId": "answer_to_question"
+  },
+  {
+    "questionType": "blank_input",
+    "questionText": "The ___ tag inserts a single line break",
+    "correctAnswer": "<br>",
+    "answerFieldId": "answer_to_question"
+  }
+]
