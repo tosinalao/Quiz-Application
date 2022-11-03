@@ -3,15 +3,15 @@
 const questions = [
   {
     questionType : "true_false",
-    questionText : "The earth is round",
+    questionText : "Java is a coding language",
     correctAnswer : "true",
     options : ["true", "false"],
   },
   {
     questionType : "multiple_choice",
-    questionText : "What is the value of the expression 4*8",
-    correctAnswer : "32",
-    options : ["32", "45", "16", "28"],
+    questionText : "Which HTML tag creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address",
+    correctAnswer : "<a>",
+    options : ["<a>","<h1>","<span>","<nav>"],
   },
   {
     questionType : "image_choice",
@@ -21,8 +21,8 @@ const questions = [
   },
   {
     questionType : "text_input",
-    questionText : "What is the value of the expression 2+2",
-    correctAnswer : "4",
+    questionText : "What is the first heading tag",
+    correctAnswer : "<h1>",
     answerFieldId : "answer_to_question"
   },
   {
@@ -30,7 +30,7 @@ const questions = [
     questionText : "The ___ tag inserts a single line break",
     correctAnswer : "<br>",
     answerFieldId : "answer_to_question"
-  },
+  }
 ]
 
 // appState, keep information about the State of the application.
