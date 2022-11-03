@@ -68,29 +68,36 @@ function handle_widget_event(e) {
     if (e.target.dataset.action == "submit") {
       appState.current_view =  "#menu_view";
          appState.current_model = {
-           action : "quiz_1",
-           action : "quiz_2"
+           action : "quiz"
          }
         // Now that the state is updated, update the view.
         update_view(appState);
     }
   }
 
-  //if (appState.current_view == "#input_view"){
-    //if (e.target.dataset.action == "submit") {
-      //appState.current_view =  "#menu_view";
-        // appState.current_model = {
-          // action : "quiz_2"
+//  if (appState.current_view == "#input_view"){
+  //  if (e.target.dataset.action == "submit") {
+    //  appState.current_view =  "#menu_view";
+      //   appState.current_model = {
+        //   action : "quiz_2"
          //}
         // Now that the state is updated, update the view.
-        //update_view(appState);
+      //  update_view(appState);
     //}
   //}
 
 
   if (appState.current_view == "#menu_view"){
-    if (e.target.dataset.action == "quiz_1") {
-      appState.current_view =  "#intro_view";
+    if (e.target.id == "quiz_1") {
+      appState.current_view =  "#quiz1_view";
+         appState.current_model = {
+           action : "start_app"
+         }
+        // Now that the state is updated, update the view.
+        update_view(appState);
+
+    } else if (e.target.id == "quiz_2") {
+      appState.current_view =  "#quiz2_view";
          appState.current_model = {
            action : "start_app"
          }
@@ -99,19 +106,33 @@ function handle_widget_event(e) {
     }
   }
 
-  if (appState.current_view == "#menu_view"){
-    if (e.target.dataset.action == "quiz_2") {
-      appState.current_view =  "#intro_view";
-         appState.current_model = {
-           action : "start_app"
-         }
+  //if (appState.current_view == "#menu_view"){
+    //if (e.target.dataset.action == "quiz_2") {
+      //appState.current_view =  "#intro_view";
+        // appState.current_model = {
+          // action : "start_app"
+         //}
+        // Now that the state is updated, update the view.
+      //  update_view(appState);
+    //}
+  //}
+
+
+  if (appState.current_view == "#quiz1_view"){
+    if (e.target.dataset.action == "start_app") {
+
+        // Update State (current model + state variables)
+        appState.current_question = 0
+        appState.current_model = questions[appState.current_question];
+        // process the appState, based on question type update appState.current_view
+        setQuestionView(appState);
+
         // Now that the state is updated, update the view.
         update_view(appState);
     }
   }
 
-
-  if (appState.current_view == "#intro_view"){
+  if (appState.current_view == "#quiz2_view"){
     if (e.target.dataset.action == "start_app") {
 
         // Update State (current model + state variables)
