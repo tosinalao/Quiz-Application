@@ -74,8 +74,34 @@
           <div class="col">
             <div>
               <span style="text-align:center"> {{this.questionText}}</span>
-              <button class="btn btn-primary pull-left" data-action="quiz_1"><h1> Quiz 1 </h1></button>
-              <button class="btn btn-danger float-right" data-action="quiz_2"><h1> Quiz 2 </h1></button>
+              <button class="btn btn-primary pull-left" data-action="quiz" id = "quiz_1"><h1> Quiz 1 </h1></button>
+              <button class="btn btn-danger float-right" data-action="quiz" id = "quiz_2"><h1> Quiz 2 </h1></button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </script>
+
+  <script id="quiz1_view" type="text/x-handlebars-template">
+    <div class="container">
+      <div class="row">
+          <div class="col">
+            <div>
+              <span> Quiz 1</span>
+              <button class="btn btn-danger float-right" data-action="{{this.action}}">{{this.action}}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </script>
+
+  <script id="quiz2_view" type="text/x-handlebars-template">
+    <div class="container">
+      <div class="row">
+          <div class="col">
+            <div>
+              <span> Quiz 2</span>
+              <button class="btn btn-danger float-right" data-action="{{this.action}}">{{this.action}}</button>
             </div>
           </div>
         </div>
