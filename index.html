@@ -38,7 +38,24 @@
 
  -->
 
-
+<script id="input_view" type="text/x-handlebars-template">
+   <div class="container">
+     <div class="row">
+         <div class="col">
+           <div>
+             <form>
+              <label for="fname">First name:</label><br>
+              <input type="text" id="fname" name="fname" value=""><br>
+              <label for="lname">Last name:</label><br>
+              <input type="text" id="lname" name="lname" value=""><br><br>
+              <input type="submit" value="Submit" data-action="submit">
+            </form>
+           </div>
+         </div>
+       </div>
+     </div>
+ </script>
+  
   <script id="intro_view" type="text/x-handlebars-template">
     <div class="container">
       <div class="row">
@@ -46,6 +63,20 @@
             <div>
               <span> Press start to begin the app</span>
               <button class="btn btn-danger float-right" data-action="{{this.action}}">{{this.action}}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </script>
+  
+  <script id="menu_view" type="text/x-handlebars-template">
+    <div class="container">
+      <div class="row">
+          <div class="col">
+            <div>
+              <span style="text-align:center"> {{this.questionText}}</span>
+              <button class="btn btn-primary pull-left" data-action="quiz_1"><h1> Quiz 1 </h1></button>
+              <button class="btn btn-danger float-right" data-action="quiz_2"><h1> Quiz 2 </h1></button>
             </div>
           </div>
         </div>
