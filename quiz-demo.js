@@ -35,7 +35,7 @@ const questions = [
 
 // appState, keep information about the State of the application.
 const appState = {
-    current_view : "#intro_view",
+    current_view : "#input_view",
     current_question : -1,
     current_model : {}
 }
@@ -46,9 +46,9 @@ const appState = {
 
 document.addEventListener('DOMContentLoaded', () => {
   // Set the state
-  appState.current_view =  "#intro_view";
+  appState.current_view =  "#input_view";
   appState.current_model = {
-    action : "start_app"
+    action : "submit"
   }
   update_view(appState);
 
@@ -64,6 +64,52 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 function handle_widget_event(e) {
+  if (appState.current_view == "#input_view"){
+    if (e.target.dataset.action == "submit") {
+      appState.current_view =  "#menu_view";
+         appState.current_model = {
+           action : "quiz_1",
+           action : "quiz_2"
+         }
+        // Now that the state is updated, update the view.
+        update_view(appState);
+    }
+  }
+
+  //if (appState.current_view == "#input_view"){
+    //if (e.target.dataset.action == "submit") {
+      //appState.current_view =  "#menu_view";
+        // appState.current_model = {
+          // action : "quiz_2"
+         //}
+        // Now that the state is updated, update the view.
+        //update_view(appState);
+    //}
+  //}
+
+
+  if (appState.current_view == "#menu_view"){
+    if (e.target.dataset.action == "quiz_1") {
+      appState.current_view =  "#intro_view";
+         appState.current_model = {
+           action : "start_app"
+         }
+        // Now that the state is updated, update the view.
+        update_view(appState);
+    }
+  }
+
+  if (appState.current_view == "#menu_view"){
+    if (e.target.dataset.action == "quiz_2") {
+      appState.current_view =  "#intro_view";
+         appState.current_model = {
+           action : "start_app"
+         }
+        // Now that the state is updated, update the view.
+        update_view(appState);
+    }
+  }
+
 
   if (appState.current_view == "#intro_view"){
     if (e.target.dataset.action == "start_app") {
@@ -75,7 +121,6 @@ function handle_widget_event(e) {
         setQuestionView(appState);
 
         // Now that the state is updated, update the view.
-
         update_view(appState);
     }
   }
@@ -164,9 +209,9 @@ function handle_widget_event(e) {
     // Handle answer event for end view.
     if (appState.current_view == "#end_view") {
         if (e.target.dataset.action == "start_again") {
-          appState.current_view =  "#intro_view";
+          appState.current_view =  "#input_view";
           appState.current_model = {
-            action : "start_app"
+            action : "submit"
           }
           update_view(appState);
 
