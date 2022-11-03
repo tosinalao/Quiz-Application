@@ -1,5 +1,6 @@
-[
-  {
+ {
+  "quiz 1": [
+    {
     "questionType": "true_false",
     "questionText": "The earth is round",
     "correctAnswer": "true",
@@ -42,4 +43,5 @@
     "correctAnswer": "<br>",
     "answerFieldId": "answer_to_question"
   }
-]
+ ]
+}
