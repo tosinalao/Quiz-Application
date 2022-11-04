@@ -316,7 +316,7 @@ function nextQuestion(ele){
    }else{
 
     //show hint
-
+    
    }
     
    //
@@ -333,7 +333,10 @@ function checkInputAnswer(){
    }else{
 
     //show hint
-
+     const explanation = document.getElementById('explanation')
+     document.querySelector('#explanation');
+     explanation.classList.remove('hide')
+     gotoNextQuestion();
    }
 
 }
