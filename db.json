@@ -30,14 +30,14 @@
    "questions-and-answers":[
       {
          "id": 1,
-         "text":"What does HTML stand for?",
+         "text":"What starts a HTML document?",
          "quizId":2,
          "questionTypeId":1,
          "correctAnswerId":1,
          "answers":[
             {
                "id":1,
-               "text":"HyperText Markup Language"
+               "text":"<!DOCTYPE html>"
             },
             {
                "id":2,
@@ -56,7 +56,7 @@
       },
       {
          "id": 2,
-         "text":"An object is an instance of a class",
+         "text":"HTML is the language for describing the structure of Web pages.",
          "quizId":2,
          "questionTypeId":4,
          "correctAnswerId":1,
@@ -74,61 +74,61 @@
       },
       {
          "id": 3,
-         "text":"What is OOP?",
+         "text":"What does HTML stand for?",
          "quizId":2,
          "questionTypeId":3,
          "correctAnswerId":1,
          "answers":[
             {
                "id":1,
-               "text":"Object Oriented Programming"
+               "text":"HyperText Markup Language"
             }
          ], 
          "explanation" : "Object-oriented programming is about creating objects that contain both data and methods."
       },
       {
          "id":4,
-         "text":"The ______ method is the entry point of a program",
+         "text":"The ______ tag is used for headings",
          "quizId":2,
          "questionTypeId":5,
          "correctAnswerId":1,
          "answers":[
             {
                "id":1,
-               "text": "main"
+               "text": "<h1>"
             }
          ],
          "explanation" : "The Java main method is usually the first method you learn about when you start programming in Java because its the entry point for executing a Java program. The main method can contain code to execute or call other methods, and it can be placed in any class that’s part of a program"
       },
       {
          "id":5,
-         "text":"Which of these are features of OOP? Select all that applies.",
+         "text":"Which of these are selectors in HTML?",
          "quizId":2,
          "questionTypeId":2,
-         "correctAnswerIds": [ 1, 2, 3, 4],
+         "correctAnswerIds": [ 1, 2, 3],
          "answers":[
             {
                "id":1,
-               "text":"Encapsulation"
+               "text":"class"
             },
             {
                "id":2,
-               "text":"Abstraction"
+               "text":"id"
             },
             {
                "id":3,
-               "text":"Polymorphism"
+               "text":"element"
             },
             {
                "id":4,
-               "text":"Inheritance"
+               "text":"style"
             }
          ],
           "explanation" : "The answer is all of the above because object-oriented programming has four basic concepts: encapsulation, abstraction, inheritance and polymorphism. While these concepts may seem complex, understanding the general framework of how they work will help you understand the basics of an OOP computer program."
       },
        {
          "id":6,
-         "text":"What does system.out.println do?",
+         "text":"What does <p> do?",
          "quizId":2,
          "questionTypeId":1,
          "correctAnswerId":2,
@@ -139,7 +139,7 @@
             },
             {
                "id":2,
-               "text":"Print a statement"
+               "text":"define a paragraph"
             },
             {
                "id":3,
@@ -154,7 +154,7 @@
       },
       {
          "id":7,
-         "text":"Java is a coding language",
+         "text":"CSS is a form of java language.",
          "quizId":2,
          "questionTypeId":4,
          "correctAnswerId":1,
@@ -172,79 +172,94 @@
       },
       {
          "id":8,
-         "text":"Which method has no return type?",
+         "text":"Which HTML tag is used to reference a link?",
          "quizId":2,
          "questionTypeId":3,
          "correctAnswerId":1,
          "answers":[
             {
                "id":1,
-               "text":"void"
+               "text":"<a>"
             }
          ],
          "explanation" : "Any method declared void doesn't return a value."
       },
       {
-         "id":9,
-         "text":"______ is the data type used for integers.",
+          "id":9,
+         "text":"Which of these is not an HTML tag? Select all that apply",
          "quizId":2,
-         "questionTypeId":5,
-         "correctAnswerId":1,
+         "questionTypeId":2,
+         "correctAnswerIds": [2, 3],
          "answers":[
             {
                "id":1,
-               "text":"int"
+               "text":"<select>"
+            },
+            {
+               "id":2,
+               "text":"<system>"
+            },
+            {
+               "id":3,
+               "text":"<print>"
+            },
+            {
+               "id":4,
+               "text":"<style>"
             }
          ],
          "explanation" : "Integer types store whole numbers, positive or negative (such as 123 or -456), without decimals."
-
       },
       {
          "id":10,
-         "text":"What type of loop is used when you know how many times you want to loop through a block of code?",
+         "text":"Tables cannot be made using HTML",
          "quizId":2,
-         "questionTypeId":3,
-         "correctAnswerId":1,
+         "questionTypeId":4,
+         "correctAnswerId":2,
          "answers":[
             {
                "id":1,
-               "text":"for loop"
+               "text":"true"
+            },
+            {
+               "id":2,
+               "text":"false"
             }
          ],
          "explanation" : "When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop"
       },
-       {
+      {
          "id":11,
-         "text":"What is a function?",
+         "text":"What is used to reference images in HTML?",
          "quizId":2,
          "questionTypeId":1,
          "correctAnswerId":4,
          "answers":[
             {
                "id":1,
-               "text":"A class"
+               "text":"<photo>"
             },
             {
                "id":2,
-               "text":"A constructor"
+               "text":"<image>"
             },
             {
                "id":3,
-               "text":"A print statement"
+               "text":"<pic>"
             },
             {
                "id":4,
-               "text":"A method that has a return type"
+               "text":"<img>"
             }
          ], 
           "explanation" : "A function is a method that does have a return value. To define a method to be a function, set its return type to be the type of the value it is returning."
       },
       {
          "id":12,
-         "text":"Int is used for characters",
+         "text":"Styling can be done in-line or in a css file.",
          "quizId":2,
          "questionTypeId":4,
-         "correctAnswerId":2,
+         "correctAnswerId":1,
          "answers":[
             {
                "id":1,
@@ -259,53 +274,53 @@
       },
       {
          "id":13,
-         "text":"Which is used for numbers in Java? Double or Char",
+         "text":"What is used to create tables in Java?",
          "quizId":2,
          "questionTypeId":3,
          "answers":[
             {
                "id":1,
-               "text":"Double"
+               "text":"<table>"
             }
          ],
          "explanation" : "The double keyword is a data type that can store fractional numbers from 1.7e−308 to 1.7e+308."
       },
       {
          "id":14,
-         "text":"The ________ keyword is used to get a package, class or interface.",
+         "text":"The ________ tag is used to collect user input.",
          "quizId":2,
          "questionTypeId":5,
          "correctAnswerId":3,
          "answers":[
             {
                "id":1,
-               "text":"import"
+               "text":"form"
             }
          ],
          "explanation" : "import is a Java keyword. It declares a Java class to use in the code below the import statement. Once a Java class is declared, then the class name can be used in the code without specifying the package the class belongs to."
       },
       {
          "id":15,
-         "text":"Which symbol is used to comment out information?",
+         "text":"Which symbol is used to comment out information in an HTML file?",
          "quizId":2,
          "questionTypeId":1,
          "correctAnswerId":2,
          "answers":[
             {
                "id":1,
-               "text":"--"
+               "text":"- Write your comments here-"
             },
             {
                "id":2,
-               "text":"//"
+               "text":"<!-- Write your comments here -->"
             },
             {
                "id":3,
-               "text":"**"
+               "text":"*Write your comments here*"
             },
             {
                "id":4,
-               "text":".."
+               "text":"// Write your comments here//"
             }
          ],
          "explanation" : "Comments can be used to explain Java code, and to make it more readable. It can also be used to prevent execution when testing alternative code.Single-line comments start with two forward slashes (//)."
