@@ -1,32 +1,4 @@
 {
-   "questionTypes":[
-      {
-         "id":1,
-         "name":"MutiChoice-Text-Button-Single-Answer"
-      },
-      {
-         "id":2,
-         "name":"MutiChoice-Check-Box-Mutliple-Answer"
-      },
-      {
-         "id":3,
-         "name":"Question-Text-Answer"
-      },
-      {
-         "id":4,
-         "name":"Question-True-False"
-      },
-      {
-         "id":5,
-         "name":"Question-with-fill-in-the-blank"
-      }
-   ],
-   "quizzes":[
-      {
-         "id":2,
-         "name":"HTML Quiz"
-      }
-   ],
    "questions-and-answers":[
       {
          "id": 1,
