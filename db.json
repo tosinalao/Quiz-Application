@@ -1,47 +1,318 @@
- {
-  "quiz 1": [
-    {
-    "questionType": "true_false",
-    "questionText": "Java is a coding language",
-    "correctAnswer": "true",
-    "options": [
-      "true",
-      "false"
-    ]
-  },
-  {
-    "questionType": "multiple_choice",
-    "questionText": "Which HTML tag creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address",
-    "correctAnswer": "<a>",
-    "options": [
-      "<a>",
-      "<h1>",
-      "<span>",
-      "<nav>"
-    ]
-  },
-  {
-    "questionType": "image_choice",
-    "questionText": "Which of these is the proper way to write a script tag?",
-    "correctAnswer": "3",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ]
-  },
-  {
-    "questionType": "text_input",
-    "questionText": "What is the first heading tag",
-    "correctAnswer": "<h1>",
-    "answerFieldId": "answer_to_question"
-  },
-  {
-    "questionType": "blank_input",
-    "questionText": "The ___ tag inserts a single line break",
-    "correctAnswer": "<br>",
-    "answerFieldId": "answer_to_question"
-  }
- ]
+{
+   "questionTypes":[
+      {
+         "id":1,
+         "name":"MutiChoice-Text-Button-Single-Answer"
+      },
+      {
+         "id":2,
+         "name":"MutiChoice-Check-Box-Mutliple-Answer"
+      },
+      {
+         "id":3,
+         "name":"Question-Text-Answer"
+      },
+      {
+         "id":4,
+         "name":"Question-True-False"
+      },
+      {
+         "id":5,
+         "name":"Question-with-fill-in-the-blank"
+      }
+   ],
+   "quizzes":[
+      {
+         "id":1,
+         "name":"Java Quiz"
+      },
+      {
+         "id":2,
+         "name":"HTML Quiz"
+      }
+   ],
+   "questions-and-answers":[
+      {
+         "id": 1,
+         "text":"What does HTML stand for?",
+         "quizId":1,
+         "questionTypeId":1,
+         "correctAnswerId":1,
+         "answers":[
+            {
+               "id":1,
+               "text":"HyperText Markup Language"
+            },
+            {
+               "id":2,
+               "text":"An instance of a Car"
+            },
+            {
+               "id":3,
+               "text":"A class for studying"
+            },
+            {
+               "id":4,
+               "text":"A cooking Pot"
+            }
+         ],
+         "explanation" : "Everything in Java is associated with classes and objects, along with its attributes and methods. For example: in real life, a car is an object. The car has attributes, such as weight and color, and methods, such as drive and brake."
+      },
+      {
+         "id": 2,
+         "text":"An object is an instance of a class",
+         "quizId":1,
+         "questionTypeId":4,
+         "correctAnswerId":1,
+         "answers":[
+            {
+               "id":1,
+               "text":"true"
+            },
+            {
+               "id":2,
+               "text":"false"
+            }
+         ],
+         "explanation" : "A Java object is a member (also called an instance) of a Java class. Each object has an identity, a behavior and a state."
+      },
+      {
+         "id": 3,
+         "text":"What is OOP?",
+         "quizId":1,
+         "questionTypeId":3,
+         "correctAnswerId":1,
+         "answers":[
+            {
+               "id":1,
+               "text":"Object Oriented Programming"
+            }
+         ], 
+         "explanation" : "Object-oriented programming is about creating objects that contain both data and methods."
+      },
+      {
+         "id":4,
+         "text":"The ______ method is the entry point of a program",
+         "quizId":1,
+         "questionTypeId":5,
+         "correctAnswerId":1,
+         "answers":[
+            {
+               "id":1,
+               "text": "main"
+            }
+         ],
+         "explanation" : "The Java main method is usually the first method you learn about when you start programming in Java because its the entry point for executing a Java program. The main method can contain code to execute or call other methods, and it can be placed in any class that’s part of a program"
+      },
+      {
+         "id":5,
+         "text":"Which of these are features of OOP? Select all that applies.",
+         "quizId":1,
+         "questionTypeId":2,
+         "correctAnswerIds": [ 1, 2, 3, 4],
+         "answers":[
+            {
+               "id":1,
+               "text":"Encapsulation"
+            },
+            {
+               "id":2,
+               "text":"Abstraction"
+            },
+            {
+               "id":3,
+               "text":"Polymorphism"
+            },
+            {
+               "id":4,
+               "text":"Inheritance"
+            }
+         ],
+          "explanation" : "The answer is all of the above because object-oriented programming has four basic concepts: encapsulation, abstraction, inheritance and polymorphism. While these concepts may seem complex, understanding the general framework of how they work will help you understand the basics of an OOP computer program."
+      },
+       {
+         "id":6,
+         "text":"What does system.out.println do?",
+         "quizId":1,
+         "questionTypeId":1,
+         "correctAnswerId":2,
+         "answers":[
+            {
+               "id":1,
+               "text":"iterate through a list" 
+            },
+            {
+               "id":2,
+               "text":"Print a statement"
+            },
+            {
+               "id":3,
+               "text":"call a function"
+            },
+            {
+               "id":4,
+               "text":"clear the console"
+            }
+         ],
+         "explanation" : "The answer is print a statement because System.out.println() is used to print an argument that is passed to it."
+      },
+      {
+         "id":7,
+         "text":"Java is a coding language",
+         "quizId":1,
+         "questionTypeId":4,
+         "correctAnswerId":1,
+         "answers":[
+            {
+               "id":1,
+               "text":"true"
+            },
+            {
+               "id":2,
+               "text":"false"
+            }
+         ],
+         "explanation" : "Java is the world's third most popular programming language, after Python and C ."
+      },
+      {
+         "id":8,
+         "text":"Which method has no return type?",
+         "quizId":1,
+         "questionTypeId":3,
+         "correctAnswerId":1,
+         "answers":[
+            {
+               "id":1,
+               "text":"void"
+            }
+         ],
+         "explanation" : "Any method declared void doesn't return a value."
+      },
+      {
+         "id":9,
+         "text":"______ is the data type used for integers.",
+         "quizId":1,
+         "questionTypeId":5,
+         "correctAnswerId":1,
+         "answers":[
+            {
+               "id":1,
+               "text":"int"
+            }
+         ],
+         "explanation" : "Integer types store whole numbers, positive or negative (such as 123 or -456), without decimals."
+
+      },
+      {
+         "id":10,
+         "text":"What type of loop is used when you know how many times you want to loop through a block of code?",
+         "quizId":1,
+         "questionTypeId":3,
+         "correctAnswerId":1,
+         "answers":[
+            {
+               "id":1,
+               "text":"for loop"
+            }
+         ],
+         "explanation" : "When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop"
+      },
+       {
+         "id":11,
+         "text":"What is a function?",
+         "quizId":1,
+         "questionTypeId":1,
+         "correctAnswerId":4,
+         "answers":[
+            {
+               "id":1,
+               "text":"A class"
+            },
+            {
+               "id":2,
+               "text":"A constructor"
+            },
+            {
+               "id":3,
+               "text":"A print statement"
+            },
+            {
+               "id":4,
+               "text":"A method that has a return type"
+            }
+         ], 
+          "explanation" : "A function is a method that does have a return value. To define a method to be a function, set its return type to be the type of the value it is returning."
+      },
+      {
+         "id":12,
+         "text":"Int is used for characters",
+         "quizId":1,
+         "questionTypeId":4,
+         "correctAnswerId":2,
+         "answers":[
+            {
+               "id":1,
+               "text":"true"
+            },
+            {
+               "id":2,
+               "text":"false"
+            }
+         ],
+         "explanation" : "The Java int keyword is a primitive data type. It is used to declare variables. It can also be used with methods to return integer type values. It can hold a 32-bit signed two's complement integer."
+      },
+      {
+         "id":13,
+         "text":"Which is used for numbers in Java? Double or Char",
+         "quizId":1,
+         "questionTypeId":3,
+         "answers":[
+            {
+               "id":1,
+               "text":"Double"
+            }
+         ],
+         "explanation" : "The double keyword is a data type that can store fractional numbers from 1.7e−308 to 1.7e+308."
+      },
+      {
+         "id":14,
+         "text":"The ________ keyword is used to get a package, class or interface.",
+         "quizId":1,
+         "questionTypeId":5,
+         "correctAnswerId":3,
+         "answers":[
+            {
+               "id":1,
+               "text":"import"
+            }
+         ],
+         "explanation" : "import is a Java keyword. It declares a Java class to use in the code below the import statement. Once a Java class is declared, then the class name can be used in the code without specifying the package the class belongs to."
+      },
+      {
+         "id":15,
+         "text":"Which symbol is used to comment out information?",
+         "quizId":1,
+         "questionTypeId":1,
+         "correctAnswerId":2,
+         "answers":[
+            {
+               "id":1,
+               "text":"--"
+            },
+            {
+               "id":2,
+               "text":"//"
+            },
+            {
+               "id":3,
+               "text":"**"
+            },
+            {
+               "id":4,
+               "text":".."
+            }
+         ],
+         "explanation" : "Comments can be used to explain Java code, and to make it more readable. It can also be used to prevent execution when testing alternative code.Single-line comments start with two forward slashes (//)."
+      }
+   ]
 }
