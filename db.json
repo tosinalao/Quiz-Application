@@ -13,18 +13,18 @@
             },
             {
                "id":2,
-               "text":"An instance of a Car"
+               "text":"A form tag"
             },
             {
                "id":3,
-               "text":"A class for studying"
+               "text":"<script>"
             },
             {
                "id":4,
-               "text":"A cooking Pot"
+               "text":"A reference to a javascript file"
             }
          ],
-         "explanation" : "Everything in Java is associated with classes and objects, along with its attributes and methods. For example: in real life, a car is an object. The car has attributes, such as weight and color, and methods, such as drive and brake."
+         "explanation" : "All HTML documents must start with a <!DOCTYPE> declaration. The declaration is not an HTML tag. It is information to the browser about what document type to expect."
       },
       {
          "id": 2,
@@ -42,7 +42,7 @@
                "text":"false"
             }
          ],
-         "explanation" : "A Java object is a member (also called an instance) of a Java class. Each object has an identity, a behavior and a state."
+         "explanation" : "HTML is the standard markup language for Web pages. With HTML you can create your own Website."
       },
       {
          "id": 3,
@@ -56,7 +56,7 @@
                "text":"HyperText Markup Language"
             }
          ], 
-         "explanation" : "Object-oriented programming is about creating objects that contain both data and methods."
+         "explanation" : "HTML (HyperText Markup Language) is the code that is used to structure a web page and its content."
       },
       {
          "id":4,
@@ -70,7 +70,7 @@
                "text": "<h1>"
             }
          ],
-         "explanation" : "The Java main method is usually the first method you learn about when you start programming in Java because its the entry point for executing a Java program. The main method can contain code to execute or call other methods, and it can be placed in any class that’s part of a program"
+         "explanation" : "HTML headings are titles or subtitles that you want to display on a webpage. <h1> defines the most important heading."
       },
       {
          "id":5,
@@ -96,7 +96,7 @@
                "text":"style"
             }
          ],
-          "explanation" : "The answer is all of the above because object-oriented programming has four basic concepts: encapsulation, abstraction, inheritance and polymorphism. While these concepts may seem complex, understanding the general framework of how they work will help you understand the basics of an OOP computer program."
+          "explanation" : " CSS selectors are used to find (or select) the HTML elements you want to style. Simple selectors (select elements based on name, id, class)"
       },
        {
          "id":6,
@@ -122,7 +122,7 @@
                "text":"clear the console"
             }
          ],
-         "explanation" : "The answer is print a statement because System.out.println() is used to print an argument that is passed to it."
+         "explanation" : "The <p> tag defines a paragraph."
       },
       {
          "id":7,
@@ -140,7 +140,7 @@
                "text":"false"
             }
          ],
-         "explanation" : "Java is the world's third most popular programming language, after Python and C ."
+         "explanation" : "CSS is the language we use to style a Web page."
       },
       {
          "id":8,
@@ -154,7 +154,7 @@
                "text":"<a>"
             }
          ],
-         "explanation" : "Any method declared void doesn't return a value."
+         "explanation" : "The <a> tag defines a hyperlink, which is used to link from one page to another."
       },
       {
           "id":9,
@@ -180,7 +180,7 @@
                "text":"<style>"
             }
          ],
-         "explanation" : "Integer types store whole numbers, positive or negative (such as 123 or -456), without decimals."
+         "explanation" : "The <select> element is used to create a drop-down list. The <style> tag is used to define style information (CSS) for a document."
       },
       {
          "id":10,
@@ -198,7 +198,7 @@
                "text":"false"
             }
          ],
-         "explanation" : "When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop"
+         "explanation" : "The <table> tag defines an HTML table. An HTML table consists of one <table> element and one or more <tr>, <th>, and <td> elements."
       },
       {
          "id":11,
@@ -224,7 +224,7 @@
                "text":"<img>"
             }
          ], 
-          "explanation" : "A function is a method that does have a return value. To define a method to be a function, set its return type to be the type of the value it is returning."
+          "explanation" : "The <img> tag is used to embed an image in an HTML page."
       },
       {
          "id":12,
@@ -242,7 +242,7 @@
                "text":"false"
             }
          ],
-         "explanation" : "The Java int keyword is a primitive data type. It is used to declare variables. It can also be used with methods to return integer type values. It can hold a 32-bit signed two's complement integer."
+         "explanation" : "The <style> tag is used to define style information (CSS) for a document."
       },
       {
          "id":13,
@@ -255,7 +255,7 @@
                "text":"<table>"
             }
          ],
-         "explanation" : "The double keyword is a data type that can store fractional numbers from 1.7e−308 to 1.7e+308."
+         "explanation" : "The <table> tag defines an HTML table."
       },
       {
          "id":14,
@@ -269,7 +269,7 @@
                "text":"form"
             }
          ],
-         "explanation" : "import is a Java keyword. It declares a Java class to use in the code below the import statement. Once a Java class is declared, then the class name can be used in the code without specifying the package the class belongs to."
+         "explanation" : "The <form> tag is used to create an HTML form for user input."
       },
       {
          "id":15,
@@ -295,7 +295,7 @@
                "text":"// Write your comments here//"
             }
          ],
-         "explanation" : "Comments can be used to explain Java code, and to make it more readable. It can also be used to prevent execution when testing alternative code.Single-line comments start with two forward slashes (//)."
+         "explanation" : "HTML comments are not displayed in the browser, but they can help document your HTML source code. You can add comments to your HTML source by using the following syntax: <!-- Write your comments here -->"
       }
    ]
 }
