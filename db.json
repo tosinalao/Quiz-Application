@@ -31,7 +31,7 @@
       {
          "id": 1,
          "text":"What does HTML stand for?",
-         "quizId":1,
+         "quizId":2,
          "questionTypeId":1,
          "correctAnswerId":1,
          "answers":[
@@ -57,7 +57,7 @@
       {
          "id": 2,
          "text":"An object is an instance of a class",
-         "quizId":1,
+         "quizId":2,
          "questionTypeId":4,
          "correctAnswerId":1,
          "answers":[
@@ -75,7 +75,7 @@
       {
          "id": 3,
          "text":"What is OOP?",
-         "quizId":1,
+         "quizId":2,
          "questionTypeId":3,
          "correctAnswerId":1,
          "answers":[
@@ -89,7 +89,7 @@
       {
          "id":4,
          "text":"The ______ method is the entry point of a program",
-         "quizId":1,
+         "quizId":2,
          "questionTypeId":5,
          "correctAnswerId":1,
          "answers":[
@@ -103,7 +103,7 @@
       {
          "id":5,
          "text":"Which of these are features of OOP? Select all that applies.",
-         "quizId":1,
+         "quizId":2,
          "questionTypeId":2,
          "correctAnswerIds": [ 1, 2, 3, 4],
          "answers":[
@@ -129,7 +129,7 @@
        {
          "id":6,
          "text":"What does system.out.println do?",
-         "quizId":1,
+         "quizId":2,
          "questionTypeId":1,
          "correctAnswerId":2,
          "answers":[
@@ -155,7 +155,7 @@
       {
          "id":7,
          "text":"Java is a coding language",
-         "quizId":1,
+         "quizId":2,
          "questionTypeId":4,
          "correctAnswerId":1,
          "answers":[
@@ -173,7 +173,7 @@
       {
          "id":8,
          "text":"Which method has no return type?",
-         "quizId":1,
+         "quizId":2,
          "questionTypeId":3,
          "correctAnswerId":1,
          "answers":[
@@ -187,7 +187,7 @@
       {
          "id":9,
          "text":"______ is the data type used for integers.",
-         "quizId":1,
+         "quizId":2,
          "questionTypeId":5,
          "correctAnswerId":1,
          "answers":[
@@ -202,7 +202,7 @@
       {
          "id":10,
          "text":"What type of loop is used when you know how many times you want to loop through a block of code?",
-         "quizId":1,
+         "quizId":2,
          "questionTypeId":3,
          "correctAnswerId":1,
          "answers":[
@@ -216,7 +216,7 @@
        {
          "id":11,
          "text":"What is a function?",
-         "quizId":1,
+         "quizId":2,
          "questionTypeId":1,
          "correctAnswerId":4,
          "answers":[
@@ -242,7 +242,7 @@
       {
          "id":12,
          "text":"Int is used for characters",
-         "quizId":1,
+         "quizId":2,
          "questionTypeId":4,
          "correctAnswerId":2,
          "answers":[
@@ -260,7 +260,7 @@
       {
          "id":13,
          "text":"Which is used for numbers in Java? Double or Char",
-         "quizId":1,
+         "quizId":2,
          "questionTypeId":3,
          "answers":[
             {
@@ -273,7 +273,7 @@
       {
          "id":14,
          "text":"The ________ keyword is used to get a package, class or interface.",
-         "quizId":1,
+         "quizId":2,
          "questionTypeId":5,
          "correctAnswerId":3,
          "answers":[
@@ -287,7 +287,7 @@
       {
          "id":15,
          "text":"Which symbol is used to comment out information?",
-         "quizId":1,
+         "quizId":2,
          "questionTypeId":1,
          "correctAnswerId":2,
          "answers":[
