@@ -23,10 +23,6 @@
    ],
    "quizzes":[
       {
-         "id":1,
-         "name":"Java Quiz"
-      },
-      {
          "id":2,
          "name":"HTML Quiz"
       }
